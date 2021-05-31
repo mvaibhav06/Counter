@@ -8,11 +8,7 @@ const Counter = () => {
     }
 
     const decreaseHnadler = () => {
-        if (count===0) {
-            
-        }else{
-            setCount(count-1)
-        }
+        setCount(count-1)
     }
     return (
         <div>
